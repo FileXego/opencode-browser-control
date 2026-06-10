@@ -24,18 +24,14 @@
     "edge"
   ],
   "license": "MIT",
-  "peerDependencies": {
-    "playwright-core": "^1.50.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FileXego/opencode-browser-control"
   },
-  "peerDependenciesMeta": {
-    "playwright-core": {
-      "optional": false
-    }
+  "dependencies": {
+    "playwright-core": "^1.50.0"
   },
   "engines": {
     "node": ">=18"
-  },
-  "devDependencies": {
-    "playwright-core": "^1.60.0"
   }
 }
