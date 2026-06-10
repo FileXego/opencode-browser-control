@@ -21,20 +21,6 @@ Add to `~/.config/opencode/opencode.json`:
   "mcp": {
     "browser-control": {
       "type": "local",
-      "command": ["node", "D:\\browser-control-plugin\\index.mjs"],
-      "enabled": true
-    }
-  }
-}
-```
-
-Or use npx (after publishing):
-
-```json
-{
-  "mcp": {
-    "browser-control": {
-      "type": "local",
       "command": ["npx", "-y", "opencode-browser-control"],
       "enabled": true
     }
