@@ -1,0 +1,41 @@
+{
+  "name": "opencode-browser-control",
+  "version": "0.1.0",
+  "description": "Browser control MCP server for OpenCode — Playwright-powered Chrome/Edge automation with ARIA snapshots",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "opencode-browser-control": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "opencode",
+    "mcp",
+    "browser",
+    "playwright",
+    "automation",
+    "chrome",
+    "edge"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "playwright-core": "^1.50.0"
+  },
+  "peerDependenciesMeta": {
+    "playwright-core": {
+      "optional": false
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.60.0"
+  }
+}
